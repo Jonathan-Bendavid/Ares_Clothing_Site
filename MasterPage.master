@@ -1,0 +1,73 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title>AresClothingBrand</title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link href="MasterFooter.css" rel="stylesheet" />
+    <link href="master.css" rel="stylesheet" />
+    <script src="https://kit.fontawesome.com/c2977b25cd.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <script src="Master.js"></script>
+    <div class="top-bar" style="width: 100%; margin-bottom: 0;background: black; margin-top: 0; ">
+        <h3 style="color: white; text-align: center; margin-bottom: 0; margin-top: 0;">Free Tracked Shipping Worldwide For All Orders!</h3>
+        <br />
+    </div>
+    <header style="background: #D3D3D3">
+        <div class="main-menu">
+    <div class="container">
+      <a href="HomePage.aspx"><h1 class="logo">Ares</h1></a>
+      <nav>
+        <ul>
+            <%=name %>
+          <li><a href="HomePage.aspx">Home</a></li>
+          <li><a href="ProductPage.aspx">Products</a></li>
+            <%= UserMenu %>
+            <li><a href="Contact.aspx">Contact</a></li>
+            <%=cart %>
+        </ul>
+      </nav>
+    </div>
+            </div>
+  </header>
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        </asp:ContentPlaceHolder>
+    <br />
+    <br />
+    <section class="newsletter">
+<h2>Subscribe to Our Newsletter</h2>
+<form>
+<input type="email" placeholder="Enter your email address"/>
+<button type="submit">Subscribe</button>
+</form>
+</section>
+    <footer class="footer">
+  <div class="legal">
+    <a href="TermsOfService.aspx">Terms of Service</a>
+    <a href="PrivacyPolicy.aspx">Privacy Policy</a>
+    <a href="ShippingPolicy.aspx">Shipping Policy</a>
+  </div>
+  <div class="payment-methods">
+    <i class="fab fa-cc-visa"></i>
+    <i class="fab fa-cc-mastercard"></i>
+    <i class="fab fa-cc-paypal"></i>
+    <i class="fab fa-cc-amazon-pay"></i>
+  </div>
+  <div class="social-media">
+    <a href="https://www.facebook.com/profile.php?id=100092458331627"><i class="fab fa-facebook-f"></i></a>
+    <a href="https://twitter.com/Ares_Clothing1"><i class="fab fa-twitter"></i></a>
+    <a href="https://www.instagram.com/ares_clothingbrand/"><i class="fab fa-instagram"></i></a>
+    <a href="http://www.tiktok.com/@ares_clothingbrand"><i class="fab fa-tiktok"></i></a>
+    <a href="https://www.youtube.com/channel/UCeXTBxk9xtobTl1rAtiyaOA"><i class="fab fa-youtube"></i></a>
+  </div>
+  <div class="our-license">
+    <p>© 2023 Ares Clothing. All rights reserved.</p>
+  </div>
+</footer>
+
+</body>
+</html>

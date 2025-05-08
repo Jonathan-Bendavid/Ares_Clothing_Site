@@ -1,0 +1,21 @@
+﻿body {
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 800;
+}
+table {
+    width: 70%;
+    margin-right: auto;
+    margin-left: auto;
+    border-collapse: collapse;
+}
+td, th {
+    text-align: center;
+    border-right: 1px solid;
+    border-left: 1px solid;
+    border-collapse: collapse;
+}
+th {
+    border-bottom: 1px solid;
+    border-collapse: collapse;
+    font-size: 18px;
+}

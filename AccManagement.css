@@ -1,0 +1,71 @@
+﻿
+
+.account-container {
+    max-width: 700px;
+    margin: auto;
+    margin-top: 200px;
+    padding: 40px;
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #333;
+}
+
+    .account-container h1 {
+        text-align: center;
+        font-size: 36px;
+        margin-bottom: 40px;
+        color: #333;
+    }
+
+    .account-container h2 {
+        text-align: center;
+        font-size: 18px;
+        margin: 20px 0 30px;
+        color: #666;
+    }
+
+    .account-container ul {
+        list-style: none;
+        padding: 0;
+        margin-bottom: 30px;
+    }
+
+        .account-container ul li {
+            background-color: #f8f8f8;
+            margin-bottom: 18px;
+            padding: 18px;
+            border-left: 4px solid #b8b8b8;
+            border-radius: 8px;
+            font-size: 16px;
+        }
+
+            .account-container ul li:hover {
+                background-color: #e6e6e6;
+            }
+
+    .account-container a {
+        display: block;
+        text-align: center;
+        background-color: #2f3640;
+        color: #fff;
+        font-weight: 600;
+        font-size: 18px;
+        border: 2px solid #b8b8b8;
+        border-radius: 30px;
+        padding: 16px 30px;
+        margin-bottom: 30px;
+        cursor: pointer;
+        transition: background-color 0.3s ease, transform 0.2s ease;
+        text-decoration: none;
+    }
+
+        .account-container a:hover { 
+            background-color: #34495e;
+            transform: scale(1.05);
+        }
+
+
+
+

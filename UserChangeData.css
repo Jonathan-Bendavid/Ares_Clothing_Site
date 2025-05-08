@@ -1,0 +1,96 @@
+﻿body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f2f2f2;
+}
+
+form {
+    max-width: 700px;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    padding: 40px;
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #333;
+}
+
+.link {
+    display: block;
+    margin: 30px auto;
+    text-align: center;
+    background-color: #2f3640;
+    color: #fff;
+    font-weight: 600;
+    font-size: 18px;
+    border: 2px solid #b8b8b8;
+    border-radius: 30px;
+    padding: 16px 30px;
+    cursor: pointer;
+    transition: background 0.3s ease, transform 0.2s ease;
+    width: 540px;
+    text-decoration: none;
+}
+
+    .acc-management-link:hover {
+        background-color: #34495e; 
+        transform: scale(1.05);
+    }
+
+
+
+h1 {
+    text-align: center;
+    color: #333;
+    font-size: 36px;
+    margin-bottom: 40px;
+    margin-top: 30px;
+}
+
+label {
+    display: block;
+    margin-bottom: 12px;
+    font-weight: bold;
+    color: #666;
+}
+
+.main-form input[type="text"],
+.main-form input[type="password"],
+.main-form input[type="tel"],
+.main-form input[type="email"] {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 24px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    color: #333;
+    box-sizing: border-box;
+}
+
+.main-form input[type="submit"] {
+    background-color: #2f3640;
+    color: #fff;
+    font-weight: 600;
+    font-size: 18px;
+    border: 2px solid #b8b8b8; /* Light border */
+    border-radius: 30px;
+    padding: 16px 30px;
+    cursor: pointer;
+    transition: background 0.3s ease, transform 0.2s ease;
+    width: 100%;
+    max-width: 100%;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+    .main-form input[type="submit"]:hover {
+        background: linear-gradient(to right, #4e6aa0, #6f8ac2);
+        transform: scale(1.02);
+    }
+
+.error {
+    color: red;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
